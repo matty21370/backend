@@ -69,6 +69,6 @@ app.use('/main', mainRoute);
 app.use('/api', authRoute);
 
 
-app.listen(3000, () => {
+app.listen(5000, () => {
     console.log("Server running");
 })
